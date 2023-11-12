@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "turtle-fun"
+version = "0.1.0"
+description = "A place where I can have fun with the turtle library because I get bored"
+authors = ["Edward <securedbread@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+matplotlib = "^3.8.1"
+numpy = "^1.26.1"
+pandas = "^2.1.3"
+turtle = "^0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
